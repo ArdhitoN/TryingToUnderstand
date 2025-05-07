@@ -25,6 +25,11 @@ Examples:
   - Another interesting observation is that after > 60k-70k timesteps, the train/std (refers to standard deviation for the noise when using generalized State Dependent Exploration) blows up, which likely makes a computation error, then a value error. So, be careful when training in RL; there could be many factors influencing an error, from vanishing or exploding gradients, computation error, etc.
 
 3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t gain, then find the most optimal policy w.r.t bias?
+If we take a look at the Laurent series expansion of v_gamma, i.e.:
+v_gamma = 1/(1 - gamma) * v_-1 + v_0 + e(pi, gamma) 
 
+Seems it can be. 
+
+But if we take a look from nBw policy gradient formulation that proposed in this paper: [A nearly Blackwell-optimal policy gradient method](https://arxiv.org/abs/2105.13609), they uses 2-level optimization process, i.e., finding the set of policies that gain optimal, then that result is become an input for the next selection, which tries to find the most optimal policies w.r.t bias value. 
 
   
