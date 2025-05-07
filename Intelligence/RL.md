@@ -24,4 +24,7 @@ Examples:
   - The result of the agent seems quite good (with the final reward of -127, it seems can kind of balance the pendulum inverted), but of course could be improved. The author reflects that it might happen because the hyperparameter was stuck in local optima, and suggests to do a random search prior to Bayesian optimization to get better hyperparameters.
   - Another interesting observation is that after > 60k-70k timesteps, the train/std (refers to standard deviation for the noise when using generalized State Dependent Exploration) blows up, which likely makes a computation error, then a value error. So, be careful when training in RL; there could be many factors influencing an error, from vanishing or exploding gradients, computation error, etc.
 
+3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t gain, then find the most optimal policy w.r.t bias?
+
+
   
