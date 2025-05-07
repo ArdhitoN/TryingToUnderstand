@@ -28,7 +28,7 @@ Examples:
 If we take a look at the Laurent series expansion of v_gamma, i.e.:
 v_gamma = 1/(1 - gamma) * v_-1 + v_0 + e(pi, gamma) 
 
-Seems it can be. 
+Seems it can be. Note that v_-1 = gain, and v_0 = bias.
 
 But if we take a look from nBw policy gradient formulation that proposed in this paper: [A nearly Blackwell-optimal policy gradient method](https://arxiv.org/abs/2105.13609), they uses 2-level optimization process, i.e., finding the set of policies that gain optimal, then that result is become an input for the next selection, which tries to find the most optimal policies w.r.t bias value. 
 
