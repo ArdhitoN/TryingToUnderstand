@@ -39,4 +39,9 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 6. Conceptually, in RL agent can't know the environment dynamics, but in many practical implementations, why do people put env as the agent attribute? Doesn't it make the agent can know any property of the environment?
 
+7. What is ergodicity and how does it happen in MDP?
+
+
+
+
 
