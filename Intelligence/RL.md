@@ -41,7 +41,6 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 7. What is ergodicity and how does it happen in MDP?
 
-
-
+8. What's the limitations of Policy Gradient methods? 
 
 
