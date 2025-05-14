@@ -43,4 +43,6 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 8. What's the limitations of Policy Gradient methods? 
 
+9. What are good examples for Reinforcement Learning Environment with Transient States?
+   
 
