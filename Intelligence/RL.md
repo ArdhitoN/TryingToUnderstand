@@ -24,6 +24,17 @@ Examples:
   - The result of the agent seems quite good (with the final reward of -127, it seems can kind of balance the pendulum inverted), but of course could be improved. The author reflects that it might happen because the hyperparameter was stuck in local optima, and suggests to do a random search prior to Bayesian optimization to get better hyperparameters.
   - Another interesting observation is that after > 60k-70k timesteps, the train/std (refers to standard deviation for the noise when using generalized State Dependent Exploration) blows up, which likely makes a computation error, then a value error. So, be careful when training in RL; there could be many factors influencing an error, from vanishing or exploding gradients, computation error, etc.
 
+
+- [Optimizing hyperparameters of deep reinforcement learning for autonomous driving based on whale optimization algorithm
+](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252754)
+- [HYPERPARAMETER TUNING FOR DEEP REINFORCEMENT
+LEARNING APPLICATIONS](https://arxiv.org/pdf/2201.11182)
+  - Uses genetic algorithm, comparing with bayesian approach
+- [Meta-Gradient Reinforcement Learning](https://arxiv.org/pdf/1805.09801)
+- [How to Discount Deep Reinforcement Learning:
+Towards New Dynamic Strategies](https://arxiv.org/pdf/1512.02011)
+
+
 3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t gain, then find the most optimal policy w.r.t bias?
 If we take a look at the Laurent series expansion of v_gamma, i.e.:
 v_gamma = 1/(1 - gamma) * v_-1 + v_0 + e(pi, gamma) 
