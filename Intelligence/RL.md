@@ -56,4 +56,6 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 9. What are good examples for Reinforcement Learning Environment with Transient States?
    
+10. Is there any correlation between Modeling & Simulation with Reinforcement Learning? How could we have RL as a field?
+
 
