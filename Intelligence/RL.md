@@ -58,4 +58,6 @@ But if we take a look from nBw policy gradient formulation that proposed in this
    
 10. Is there any correlation between Modeling & Simulation with Reinforcement Learning? How could we have RL as a field?
 
+11. How are gradient updates done in practice? Is it sampled properly from the real distribution?
+
 
