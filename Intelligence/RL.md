@@ -73,6 +73,19 @@ hence different initial state could produce different optimal policies.
 We could make the objective as a single number by making possible initial states as weights based on initial state distribution, 
 but such approach might not be appropriate 
 as the initial state might not represent the whole states that will be visited by the agent throughout the horizon.
-Such objective could be made more sense through several ways, but it eventually leads to average reward optimality criterion 
+Such objective could be made more sense through several ways, but it eventually leads to average reward optimality criterion.
+
+
+
+13. Where the stationarity refers to in stationary MDP? Is it changing in terms of the possible states and actions? 
+* Insight from: https://arxiv.org/pdf/1904.10090
+
+Actually, the stationarity refers to just the state transition probability (P) and the reward function (r). I haven't seen any sources that say about changing state set and action set yet.
+
+14. How's the best reward function formulations?
+
+* Can we define more than 1 reward function to be maximized? For example to maximize one objective whilst minimizing risk? 
+Yes, there's a concept called constrained MDP: https://readingsml.blogspot.com/2020/03/constrained-mdps-and-reward-hypothesis.html
+
 
 
