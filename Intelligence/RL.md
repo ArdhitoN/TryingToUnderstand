@@ -60,4 +60,19 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 11. How are gradient updates done in practice? Is it sampled properly from the real distribution?
 
+12. Back to basic, as policy gradient is an optimization problem, what makes a valid optimization problem?
+* Insight from: [Discounted Reinforcement Learning Is Not an Optimization Problem](https://arxiv.org/abs/1910.02140)
+
+Optimization problem needs at least a set of feasible solutions and an objective function that produces a 
+scalar value that represents each of the solution's value. 
+In continuing task with RL setting, we need to use function approximation. 
+With that, using discounted reward as the optimality criterion is not producing an optimization problem,
+there's no clear objective function, 
+since policy's value depends on initial state, 
+hence different initial state could produce different optimal policies.
+We could make the objective as a single number by making possible initial states as weights based on initial state distribution, 
+but such approach might not be appropriate 
+as the initial state might not represent the whole states that will be visited by the agent throughout the horizon.
+Such objective could be made more sense through several ways, but it eventually leads to average reward optimality criterion 
+
 
