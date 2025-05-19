@@ -37,6 +37,8 @@ Towards New Dynamic Strategies](https://arxiv.org/pdf/1512.02011)
 - [HIGH-DIMENSIONAL CONTINUOUS CONTROL USING
 GENERALIZED ADVANTAGE ESTIMATION](https://arxiv.org/pdf/1506.02438)
 
+- [HYPERPARAMETER TUNING FOR REINFORCEMENT LEARNING WITH BANDITS AND OFF-POLICY SAMPLING](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=case1613034993418088&disposition=inline&utm_source=chatgpt.com)
+- [Hyperparameter Selection in Reinforcement Learning Using the “Design of Experiments” Method](https://www.sciencedirect.com/science/article/pii/S1877050923009055/pdf?md5=4b3167166e6accc47dc92052724b028a&pid=1-s2.0-S1877050923009055-main.pdf)
 
 Lecture on discounted PG & Natural PG: https://cs.stanford.edu/~amishkin/assets/slides/policy_gradients.pdf
 
