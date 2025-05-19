@@ -34,6 +34,12 @@ LEARNING APPLICATIONS](https://arxiv.org/pdf/2201.11182)
 - [How to Discount Deep Reinforcement Learning:
 Towards New Dynamic Strategies](https://arxiv.org/pdf/1512.02011)
 
+- [HIGH-DIMENSIONAL CONTINUOUS CONTROL USING
+GENERALIZED ADVANTAGE ESTIMATION](https://arxiv.org/pdf/1506.02438)
+
+
+Lecture on discounted PG & Natural PG: https://cs.stanford.edu/~amishkin/assets/slides/policy_gradients.pdf
+
 
 3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t gain, then find the most optimal policy w.r.t bias?
 If we take a look at the Laurent series expansion of v_gamma, i.e.:
