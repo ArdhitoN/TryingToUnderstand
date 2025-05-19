@@ -75,17 +75,21 @@ but such approach might not be appropriate
 as the initial state might not represent the whole states that will be visited by the agent throughout the horizon.
 Such objective could be made more sense through several ways, but it eventually leads to average reward optimality criterion.
 
+13. How's the performance comparation between average reward vs discounted reward RL?
+* One paper that talks about this: [Performance Bounds for Policy-Based Average Reward Reinforcement Learning Algorithms](https://arxiv.org/abs/2302.01450) 
+  
+14. How to stabilize avg reward based RL?
+* One paper that talks about this: [Average-Reward Reinforcement Learning with Entropy Regularization](https://arxiv.org/abs/2501.09080) 
 
-
-13. Where the stationarity refers to in stationary MDP? Is it changing in terms of the possible states and actions? 
-* Insight from: https://arxiv.org/pdf/1904.10090
+15. Where the stationarity refers to in stationary MDP? Is it changing in terms of the possible states and actions? 
+* Insight from: [Non-Stationary Markov Decision Processes a Worst-Case Approach using Model-Based
+Reinforcement Learning](https://arxiv.org/pdf/1904.10090)
 
 Actually, the stationarity refers to just the state transition probability (P) and the reward function (r). I haven't seen any sources that say about changing state set and action set yet.
 
-14. How's the best reward function formulations?
+16. How's the best reward function formulations?
+* Can we define more than 1 reward function to be maximized? For example to maximize one objective whilst minimizing risk?
 
-* Can we define more than 1 reward function to be maximized? For example to maximize one objective whilst minimizing risk? 
-Yes, there's a concept called constrained MDP: https://readingsml.blogspot.com/2020/03/constrained-mdps-and-reward-hypothesis.html
-
+Yes, there's a concept called constrained MDP: [Constrained MDPs and the reward hypothesis](https://readingsml.blogspot.com/2020/03/constrained-mdps-and-reward-hypothesis.html)
 
 
