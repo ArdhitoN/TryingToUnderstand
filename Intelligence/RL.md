@@ -101,3 +101,41 @@ Actually, the stationarity refers to just the state transition probability (P) a
 Yes, there's a concept called constrained MDP: [Constrained MDPs and the reward hypothesis](https://readingsml.blogspot.com/2020/03/constrained-mdps-and-reward-hypothesis.html)
 
 
+17. What's the difference between Deep Policy Gradients vs Non-Deep Policy Gradients?
+
+* Insight from [Deep Policy Gradient Algorithms: A Closer Look](https://youtu.be/7J2zajQe7lw?si=KcETr_dkxCFOWUtS)
+There are several problems with Deep RL:
+
+a. Poor reliability over repeated runs (w/ different seeds)
+
+b. High sensitivity to hyperparameters
+
+c. Poor robustness to env artifacts
+
+To get rid of that, let's get back to the first principles:
+
+a. Gradient estimates --> take k-samples, measure gradient variance (mean pairwise correlation --> higher means lower concentration, whilst lower means worse concentration)
+
+b. Value prediction --> gradient estimation hindered by high variance. Thus: 
+- - if we can estimate value of a state, it can lower the variance. Intuition: separating the value of a sate with the action improve the accuracy of determining which one contributes more to the state-action value
+  We can use Neural Network for estimating values.
+
+c. Optimization Landscape
+The key assumption is that: taking gradient steps increases overall reward
+How this is valid in practice?
+The reality is that, steps oftentimes not predictive in the optimization process. Why? Because it iteratively maximize the surrogate reward, not the true reward!
+
+d. Trust Regions
+-> The steps taken should be based on our samples. 
+-> TRPO & PPO uses KL Distance for this.
+
+Recap: Deep RL training dynamics poorly understood:
+- Steps are often uncorrelated
+- Surrogate reward doesn't match the true rewards
+- Trust Regions does not hold
+
+To get rid of that, we need:
+- Reconcile RL with conceptual framework
+- Rethink primitives for modern settings (high dimensionality, non-convex function approximations, algorithm optimizations)
+- Get better evaluations for RL systems (reliability, safety, robustness)
+
