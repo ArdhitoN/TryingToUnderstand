@@ -139,3 +139,5 @@ To get rid of that, we need:
 - Rethink primitives for modern settings (high dimensionality, non-convex function approximations, algorithm optimizations)
 - Get better evaluations for RL systems (reliability, safety, robustness)
 
+
+18. Is bias an optimality criterion?
