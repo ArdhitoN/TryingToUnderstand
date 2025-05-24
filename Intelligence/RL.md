@@ -127,7 +127,7 @@ The reality is that, steps oftentimes not predictive in the optimization process
 
 d. Trust Regions
 -> The steps taken should be based on our samples. 
--> TRPO & PPO uses KL Distance for this.
+-> TRPO & PPO use KL Distance for this.
 
 Recap: Deep RL training dynamics poorly understood:
 - Steps are often uncorrelated
@@ -141,3 +141,6 @@ To get rid of that, we need:
 
 
 18. Is bias an optimality criterion?
+
+19. What is geometric distribution?
+
