@@ -143,4 +143,7 @@ To get rid of that, we need:
 18. Is bias an optimality criterion?
 
 19. What is geometric distribution?
-
+* Ref: https://towardsdatascience.com/geometric-distribution-simply-explained-9177c816794f/
+  * Number of Bernoulli trials to get a "success" outcome. Success here could refer to many things, depends on context.
+  * Key properties:
+    * Memoryless (each bernoulli trial is independent. Means failure in prev trial doesn't affect the next trial prob of succeeding)
