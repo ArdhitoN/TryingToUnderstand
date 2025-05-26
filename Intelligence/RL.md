@@ -43,7 +43,12 @@ GENERALIZED ADVANTAGE ESTIMATION](https://arxiv.org/pdf/1506.02438)
 Lecture on discounted PG & Natural PG: https://cs.stanford.edu/~amishkin/assets/slides/policy_gradients.pdf
 
 
-3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t gain, then find the most optimal policy w.r.t bias?
+Papers that doesn't tune gamma (use fixed value, e.g., 0.99): 
+* [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)
+* [The AI Economist: Optimal Economic Policy Design via Two-level Deep Reinforcement Learning](https://arxiv.org/abs/2108.02755)
+* [The Definitive Guide to Policy Gradients in Deep Reinforcement Learning: Theory, Algorithms and Implementations](https://arxiv.org/abs/2401.13662)
+
+3. If we want to evaluate a policy w.r.t Blackwell optimality criterion with discounting-free mechanisms, and say that it is for any unichain environment, can we just compare the gain + bias between policies to determine which one is better? Or must we approach the problem layer by layer, i.e., find the most optimal policy w.r.t. gain, then find the most optimal policy w.r.t bias?
 If we take a look at the Laurent series expansion of v_gamma, i.e.:
 v_gamma = 1/(1 - gamma) * v_-1 + v_0 + e(pi, gamma) 
 
