@@ -152,3 +152,9 @@ To get rid of that, we need:
   * Number of Bernoulli trials to get a "success" outcome. Success here could refer to many things, depends on context.
   * Key properties:
     * Memoryless (each bernoulli trial is independent. Means failure in prev trial doesn't affect the next trial prob of succeeding)
+    * 
+
+
+20. Are Policy Gradient Methods Always Working?
+* Insight from: [CS 182: Lecture 15: Part 3: Policy Gradients](https://www.youtube.com/watch?v=EsDm2K5nKeA), [Policy Gradient Methods: Tutorial and New Frontiers](https://www.youtube.com/watch?v=y4ci8whvS1E)
+* To make it work, we can use a baseline as a variance reducer, that doesn't introduce bias.
