@@ -158,3 +158,17 @@ To get rid of that, we need:
 20. Are Policy Gradient Methods Always Working?
 * Insight from: [CS 182: Lecture 15: Part 3: Policy Gradients](https://www.youtube.com/watch?v=EsDm2K5nKeA), [Policy Gradient Methods: Tutorial and New Frontiers](https://www.youtube.com/watch?v=y4ci8whvS1E)
 * To make it work, we can use a baseline as a variance reducer, that doesn't introduce bias.
+* 
+
+
+21. How to measure sample complexity of RL algorithm?
+* Refs: https://ai.stackexchange.com/questions/38775/do-the-terms-sample-complexity-and-sample-efficiency-mean-the-same-thing-in, https://ai.stackexchange.com/questions/21992/how-to-measure-sample-efficiency-of-a-reinforcement-learning-algorithm/21996#21996, https://www.youtube.com/watch?v=DT2MbIeec4U, https://www.datacamp.com/blog/what-is-sample-complexity
+* * We need to set the treshold value, then find how many samples needed for the algo to reach that treshold.
+ 
+* * Things that correlated with sample complexity:
+  * * Bias : in the form of approximate-based variables.
+    * Variance
+    * Exploration: the ideal condition is that samples include all possible state & action spaces, so the sample can be representative about the whole RL problem  (?)
+    * Generalization
+
+* Formally, we need to play with PAC concept https://en.wikipedia.org/wiki/Probably_approximately_correct_learning
