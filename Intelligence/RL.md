@@ -177,3 +177,8 @@ To get rid of that, we need:
   * Define optimality criteria x for each (could be different for both, e.g., discounting-free refers to gain + bias converged, whilst discounted refers to v_gamma converged).
   * In the sampling scenario, we could reduce the term convergence here to "the norm of the gradient less than some tolerance number". So it doesn't need to end up living in the optimal region (as it might not work).
   * Find how many samples are needed for convergence
+
+
+
+22. How's the proper way to implement discounted policy gradients?
+* [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
