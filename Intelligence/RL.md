@@ -58,6 +58,7 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 
 4. What is fisher information and its correlation with natural gradient?
+https://jonathan-hui.medium.com/rl-natural-policy-gradient-actor-critic-using-kronecker-factored-trust-region-acktr-58f3798a4a93
   
 5. Why using linear parameterization and mean squared error emerge natural gradient, then that emergence could reduce the problem of policy improvement into regression?
 
@@ -181,4 +182,4 @@ To get rid of that, we need:
 
 
 22. How's the proper way to implement discounted policy gradients?
-* [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
+* [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073) 
