@@ -65,16 +65,20 @@ https://jonathan-hui.medium.com/rl-natural-policy-gradient-actor-critic-using-kr
 6. Conceptually, in RL agent can't know the environment dynamics, but in many practical implementations, why do people put env as the agent attribute? Doesn't it make the agent can know any property of the environment?
 
 7. What is ergodicity and how does it happen in MDP?
+- 
 
-8. What's the limitations of Policy Gradient methods? 
+8. What's the limitations of Policy Gradient methods?
+* Might not be working as expected (go to local optima instead of global optima)
 
-9. What are good examples for Reinforcement Learning Environment with Transient States?
+
+10. What are good examples for Reinforcement Learning Environment with Transient States?
+
    
-10. Is there any correlation between Modeling & Simulation with Reinforcement Learning? How could we have RL as a field?
+11. Is there any correlation between Modeling & Simulation with Reinforcement Learning? How could we have RL as a field?
 
-11. How are gradient updates done in practice? Is it sampled properly from the real distribution?
+12. How are gradient updates done in practice? Is it sampled properly from the real distribution?
 
-12. Back to basic, as policy gradient is an optimization problem, what makes a valid optimization problem?
+13. Back to basic, as policy gradient is an optimization problem, what makes a valid optimization problem?
 * Insight from: [Discounted Reinforcement Learning Is Not an Optimization Problem](https://arxiv.org/abs/1910.02140)
 
 Optimization problem needs at least a set of feasible solutions and an objective function that produces a 
@@ -182,4 +186,6 @@ To get rid of that, we need:
 
 
 22. How's the proper way to implement discounted policy gradients?
-* [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073) 
+* [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
+
+
