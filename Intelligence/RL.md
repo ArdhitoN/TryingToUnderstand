@@ -188,4 +188,4 @@ To get rid of that, we need:
 22. How's the proper way to implement discounted policy gradients?
 * [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
 
-
+23. What principles that enables conversion from DP setting to RL setting?
