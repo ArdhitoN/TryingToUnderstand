@@ -198,3 +198,6 @@ Actually, there are two major ways for updating the policy gradients:
 23. What principles that enables conversion from DP setting to RL setting?
 
 24. How's the example for computing sample complexity?
+
+25. What are the examples of policy gradient success in practical scenarios?
+
