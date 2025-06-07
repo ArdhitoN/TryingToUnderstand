@@ -190,8 +190,6 @@ Actually, there are two major ways for updating the policy gradients:
 * Based on gradient of the policy's value (this is basically the special case for the first scheme)
 
 
-
-
 22. How's the proper way to implement discounted policy gradients?
 * [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
 
@@ -200,4 +198,6 @@ Actually, there are two major ways for updating the policy gradients:
 24. How's the example for computing sample complexity?
 
 25. What are the examples of policy gradient success in practical scenarios?
+
+26. What is the meaning of n >= 1-discount optimality criterion?
 
