@@ -201,3 +201,4 @@ Actually, there are two major ways for updating the policy gradients:
 
 26. What is the meaning of n >= 1-discount optimality criterion?
 
+27. Any examples of gamma_blackwell that could be known in some environment?
