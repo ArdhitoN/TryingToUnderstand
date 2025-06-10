@@ -59,15 +59,16 @@ But if we take a look from nBw policy gradient formulation that proposed in this
 
 4. What is fisher information and its correlation with natural gradient?
 https://jonathan-hui.medium.com/rl-natural-policy-gradient-actor-critic-using-kronecker-factored-trust-region-acktr-58f3798a4a93
+Natural --> utilize the structure of policy distribution, i.e., changes in policy parameter induces changes in the distribution of policy \pi. 
   
-5. Why using linear parameterization and mean squared error emerge natural gradient, then that emergence could reduce the problem of policy improvement into regression?
+6. Why using linear parameterization and mean squared error emerge natural gradient, then that emergence could reduce the problem of policy improvement into regression?
 
-6. Conceptually, in RL agent can't know the environment dynamics, but in many practical implementations, why do people put env as the agent attribute? Doesn't it make the agent can know any property of the environment?
+7. Conceptually, in RL agent can't know the environment dynamics, but in many practical implementations, why do people put env as the agent attribute? Doesn't it make the agent can know any property of the environment?
 
-7. What is ergodicity and how does it happen in MDP?
+8. What is ergodicity and how does it happen in MDP?
 - 
 
-8. What's the limitations of Policy Gradient methods?
+9. What's the limitations of Policy Gradient methods?
 * Might not be working as expected (go to local optima instead of global optima)
 
 
@@ -202,3 +203,5 @@ Actually, there are two major ways for updating the policy gradients:
 26. What is the meaning of n >= 1-discount optimality criterion?
 
 27. Any examples of gamma_blackwell that could be known in some environment?
+
+28. 
