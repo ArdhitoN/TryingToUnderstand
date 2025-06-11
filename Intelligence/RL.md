@@ -66,9 +66,9 @@ Natural --> utilize the structure of policy distribution, i.e., changes in polic
 7. Conceptually, in RL agent can't know the environment dynamics, but in many practical implementations, why do people put env as the agent attribute? Doesn't it make the agent can know any property of the environment?
 
 8. What is ergodicity and how does it happen in MDP?
-- 
+Ergodicity needs the MDP to be recurrent chain.
 
-9. What's the limitations of Policy Gradient methods?
+10. What's the limitations of Policy Gradient methods?
 * Might not be working as expected (go to local optima instead of global optima)
 
 
