@@ -198,10 +198,13 @@ Actually, there are two major ways for updating the policy gradients:
 
 24. How's the example for computing sample complexity?
 
+
 25. What are the examples of policy gradient success in practical scenarios?
 
 26. What is the meaning of n >= 1-discount optimality criterion?
 
 27. Any examples of gamma_blackwell that could be known in some environment?
 
-28. 
+
+28. Correlation between gradient descent and policy gradient?
+[A Visual Tour From Gradient Descent to Policy Gradients](https://observablehq.com/@klezm/a-visual-tour-from-gradient-descent-to-policy-gradients)
