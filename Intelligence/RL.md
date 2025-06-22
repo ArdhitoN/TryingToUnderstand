@@ -170,6 +170,9 @@ To get rid of that, we need:
 21. How to measure sample complexity of RL algorithm?
 * Refs: https://ai.stackexchange.com/questions/38775/do-the-terms-sample-complexity-and-sample-efficiency-mean-the-same-thing-in, https://ai.stackexchange.com/questions/21992/how-to-measure-sample-efficiency-of-a-reinforcement-learning-algorithm/21996#21996, https://www.youtube.com/watch?v=DT2MbIeec4U, https://www.datacamp.com/blog/what-is-sample-complexity
 * * We need to set the treshold value, then find how many samples needed for the algo to reach that treshold.
+* * https://proceedings.mlr.press/v151/yuan22a/yuan22a.pdf
+  * https://proceedings.mlr.press/v238/mondal24a/mondal24a.pdf
+  * https://arxiv.org/pdf/2211.07937
  
 * * Things that correlated with sample complexity:
   * * Bias : in the form of approximate-based variables.
