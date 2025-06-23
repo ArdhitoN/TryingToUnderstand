@@ -170,9 +170,10 @@ To get rid of that, we need:
 21. How to measure sample complexity of RL algorithm?
 * Refs: https://ai.stackexchange.com/questions/38775/do-the-terms-sample-complexity-and-sample-efficiency-mean-the-same-thing-in, https://ai.stackexchange.com/questions/21992/how-to-measure-sample-efficiency-of-a-reinforcement-learning-algorithm/21996#21996, https://www.youtube.com/watch?v=DT2MbIeec4U, https://www.datacamp.com/blog/what-is-sample-complexity
 * * We need to set the treshold value, then find how many samples needed for the algo to reach that treshold.
-* * https://proceedings.mlr.press/v151/yuan22a/yuan22a.pdf
-  * https://proceedings.mlr.press/v238/mondal24a/mondal24a.pdf
-  * https://arxiv.org/pdf/2211.07937
+* * [An Improved Analysis of (Variance-Reduced) Policy Gradient and Natural Policy Gradient Methods](https://arxiv.org/pdf/2211.07937)
+* * [A general sample complexity analysis of vanilla policy gradient](https://proceedings.mlr.press/v151/yuan22a/yuan22a.pdf)
+* * [Improved Sample Complexity Analysis of Natural Policy Gradient Algorithm with General Parameterization for Infinite Horizon Discounted Reward Markov Decision Processes](https://proceedings.mlr.press/v238/mondal24a/mondal24a.pdf)
+
  
 * * Things that correlated with sample complexity:
   * * Bias : in the form of approximate-based variables.
@@ -198,8 +199,6 @@ Actually, there are two major ways for updating the policy gradients:
 * [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
 
 23. What principles that enables conversion from DP setting to RL setting?
-
-24. How's the example for computing sample complexity?
 
 
 25. What are the examples of policy gradient success in practical scenarios?
