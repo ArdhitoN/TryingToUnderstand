@@ -173,6 +173,7 @@ To get rid of that, we need:
 * * [An Improved Analysis of (Variance-Reduced) Policy Gradient and Natural Policy Gradient Methods](https://arxiv.org/pdf/2211.07937)
 * * [A general sample complexity analysis of vanilla policy gradient](https://proceedings.mlr.press/v151/yuan22a/yuan22a.pdf)
 * * [Improved Sample Complexity Analysis of Natural Policy Gradient Algorithm with General Parameterization for Infinite Horizon Discounted Reward Markov Decision Processes](https://proceedings.mlr.press/v238/mondal24a/mondal24a.pdf)
+  * O(\epsilon^p) states how the amount of samples needed to improve the accuracy of the policy from the GO (Global Optimal) with improvement measure of \epsilon^p.
 
  
 * * Things that correlated with sample complexity:
