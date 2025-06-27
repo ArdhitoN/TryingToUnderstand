@@ -153,6 +153,7 @@ To get rid of that, we need:
 
 18. Is bias an optimality criterion?
 
+
 19. What is geometric distribution?
 * Ref: https://towardsdatascience.com/geometric-distribution-simply-explained-9177c816794f/
   * Number of Bernoulli trials to get a "success" outcome. Success here could refer to many things, depends on context.
@@ -200,14 +201,17 @@ Actually, there are two major ways for updating the policy gradients:
 * [Is the Policy Gradient a Gradient?](https://arxiv.org/abs/1906.07073)
 
 23. What principles that enables conversion from DP setting to RL setting?
-
+- Parameterizations --> enable generalization.
 
 25. What are the examples of policy gradient success in practical scenarios?
 
+
 26. What is the meaning of n >= 1-discount optimality criterion?
+
 
 27. Any examples of gamma_blackwell that could be known in some environment?
 
 
 28. Correlation between gradient descent and policy gradient?
 [A Visual Tour From Gradient Descent to Policy Gradients](https://observablehq.com/@klezm/a-visual-tour-from-gradient-descent-to-policy-gradients)
+
