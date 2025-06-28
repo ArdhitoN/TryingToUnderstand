@@ -207,7 +207,7 @@ Actually, there are two major ways for updating the policy gradients:
 
 
 26. What is the meaning of n >= 1-discount optimality criterion?
-
+Some examples give a sign that n=1-discount optimality depicts a quicker process to reach the absorbing state with high rewards.
 
 27. Any examples of gamma_blackwell that could be known in some environment?
 
