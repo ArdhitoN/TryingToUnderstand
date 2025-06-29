@@ -204,8 +204,8 @@ Actually, there are two major ways for updating the policy gradients:
 - Parameterizations --> enable generalization.
 
 25. What are the examples of policy gradient success in practical scenarios?
-
-
+Well, most of SOTA practical implementations are based on PPO, which is a variant of Policy Gradients.
+ 
 26. What is the meaning of n >= 1-discount optimality criterion?
 Some examples give a sign that n=1-discount optimality depicts a quicker process to reach the absorbing state with high rewards.
 
