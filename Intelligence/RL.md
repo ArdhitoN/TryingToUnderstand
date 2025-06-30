@@ -152,7 +152,7 @@ To get rid of that, we need:
 
 
 18. Is bias an optimality criterion?
-
+Yes, we could consider bias as an optimality criterion as an extension of average reward optimality criterion, if we refer to the Veinott's.
 
 19. What is geometric distribution?
 * Ref: https://towardsdatascience.com/geometric-distribution-simply-explained-9177c816794f/
