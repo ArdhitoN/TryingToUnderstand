@@ -174,6 +174,13 @@ Yes, we could consider bias as an optimality criterion as an extension of averag
 * * [An Improved Analysis of (Variance-Reduced) Policy Gradient and Natural Policy Gradient Methods](https://arxiv.org/pdf/2211.07937)
 * * [A general sample complexity analysis of vanilla policy gradient](https://proceedings.mlr.press/v151/yuan22a/yuan22a.pdf)
 * * [Improved Sample Complexity Analysis of Natural Policy Gradient Algorithm with General Parameterization for Infinite Horizon Discounted Reward Markov Decision Processes](https://proceedings.mlr.press/v238/mondal24a/mondal24a.pdf)
+  * [Elementary Analysis of Policy Gradient Methods](https://arxiv.org/pdf/2404.03372)
+  * [GLOBAL CONVERGENCE OF POLICY GRADIENT IN AVERAGE REWARD MDPS](https://openreview.net/pdf?id=2PRpcmJecX)
+  * [Analysis of On-policy Policy Gradient Methods under the Distribution Mismatch](https://arxiv.org/html/2503.22244v1#:~:text=Theoretical%20analysis%20for%20tabular%20parameterizations,optimal%20solutions%20under%20tabular%20policies)
+  * [Practical Principled Policy Optimization for Finite MDPs](https://openreview.net/pdf?id=c838OfxQwF)
+  * [On the Convergence Rates of Policy Gradient Methods](https://arxiv.org/pdf/2201.07443)
+  * [Regret Analysis of Policy Gradient Algorithm for Infinite Horizon Average Reward Markov Decision Processes](https://arxiv.org/pdf/2309.01922)
+  * [A Sharper Global Convergence Analysis for Average Reward Reinforcement Learning via an Actor-Critic Approach](https://arxiv.org/pdf/2407.18878)
   * O(\epsilon^p) states how the amount of samples needed to improve the accuracy of the policy from the GO (Global Optimal) with improvement measure of \epsilon^p.
 
  
