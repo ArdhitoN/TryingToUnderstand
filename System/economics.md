@@ -10,3 +10,7 @@
 * Complex systems view: back to its first intention to economy, by analyzing it historically, but with another approach, i.e., simulations. The consequences is that traditional,
   mathematical principles from previous traditional view are dissipating, where no more rigorous statistical significance test, etc.
 
+
+Reference:
+- [Philosophy of Complex Systems, Part VI](https://circulosemiotico.wordpress.com/wp-content/uploads/2015/05/philosophy_of_complex_systems.pdf)
+- [Complexity and Philosophy ](https://arxiv.org/pdf/cs/0604072)
