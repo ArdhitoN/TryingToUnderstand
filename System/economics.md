@@ -11,13 +11,25 @@
   * businesses
   * individuals 
 
+Breaking down economic sectors... 
+### Primary
+
+
+### Secondary
+
+
+### Tertiary
+
+
+### Quarternary
+
+
+### Quinary
 
 ## Businesses
 * For businesses, we can clasify them based on their operating industries. 
 * Industry is a subset of sector.
 * A business that operate within > 1 sector is called conglomeration.
-
-
 
 Reference:
 - [Philosophy of Complex Systems, Part VI](https://circulosemiotico.wordpress.com/wp-content/uploads/2015/05/philosophy_of_complex_systems.pdf)
