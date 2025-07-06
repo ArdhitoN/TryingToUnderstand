@@ -1,3 +1,4 @@
+## Foundations
 * Traditional economy view: economy could be seen as constrained optimizations. In the beginning, all was trying to understand the historical economy, but then it all shifted
   to lean into natural science, trying to make predictive models. This view is being criticized as it assumes a perfect, known model of what is really happening in the process,
   whilst actually not. 
