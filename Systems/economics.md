@@ -13,7 +13,7 @@
 
 Breaking down economic sectors... 
 ### Primary
-
+Invlove the extraction or production of raw materials. 
 
 ### Secondary
 
