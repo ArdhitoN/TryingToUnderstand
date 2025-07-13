@@ -8,14 +8,16 @@ One paper that talks about this : [Reducing Blackwell and Average Optimality to 
 - The authors explained that we can find the upper gamma Blackwell analytically. Therefore, we can take a slightly higher value from that upper gamma Blackwell as the discount factor gamma in our MDP.
 - Also, the authors noticed a counterexample where at gamma > gamma_bw (with the classical definition), it doesn't always necessarily result in the same set of optimal policies. So, they formulate a new notation called gamma_upper_bw, which the set of optimal policies will then actually be the same across gamma > gamma_upper_bw. 
 
-2. How do people tune gamma in practice?
+2. How do people tune gamma in practice? 
 In practice (realistic environment), I haven't seen any example that considers the Blackwell optimality criterion. Most of them rely on trying to get:
 - The average episode reward. 
 - Balancing the tradeoff between convergence time vs horizon considerations
   - Bigger gamma slows down convergence, but consider a longer horizon
   - Lower gamma faster convergence, but consider shorter horizon, thus actually could lead to suboptimal policy according to the most selective criterion, which is Blackwell.
 
+
 Examples:
+- [Automatic Hyperparameter Tuning - In Practice (Optuna)](https://araffin.github.io/post/optuna/)
 - [Hyperparameter Optimization for Reinforcement Learning using Meta’s Ax](https://www.digikey.com/en/maker/projects/hyperparameter-optimization-with-meta-ax/f09c53489dc94f13bcbcc2b6227c2ed4)
   
   - That blog + video demonstrates an interesting process of doing RL + hyperparameter tuning on the inverted pendulum task.
