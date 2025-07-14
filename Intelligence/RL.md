@@ -224,3 +224,5 @@ Some examples give a sign that n=1-discount optimality depicts a quicker process
 28. Correlation between gradient descent and policy gradient?
 [A Visual Tour From Gradient Descent to Policy Gradients](https://observablehq.com/@klezm/a-visual-tour-from-gradient-descent-to-policy-gradients)
 
+29. Origin of Blackwell?
+
